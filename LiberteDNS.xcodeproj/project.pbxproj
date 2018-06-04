@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA6323A20C1780700C8AED5 /* QuickDNS.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA6323920C1780700C8AED5 /* QuickDNS.h */; };
+		BEA6323C20C1780700C8AED5 /* QuickDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6323B20C1780700C8AED5 /* QuickDNS.m */; };
+		BEA6323E20C1780700C8AED5 /* QuickDNS.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEA6323D20C1780700C8AED5 /* QuickDNS.tiff */; };
+		BEA6324120C1780700C8AED5 /* QuickDNS.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA6323F20C1780700C8AED5 /* QuickDNS.xib */; };
+		BEA6324D20C17E0100C8AED5 /* dns.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BEA6324C20C17E0100C8AED5 /* dns.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEA6323620C1780700C8AED5 /* LiberteDNS.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiberteDNS.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA6323920C1780700C8AED5 /* QuickDNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickDNS.h; sourceTree = "<group>"; };
+		BEA6323B20C1780700C8AED5 /* QuickDNS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickDNS.m; sourceTree = "<group>"; };
+		BEA6323D20C1780700C8AED5 /* QuickDNS.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = QuickDNS.tiff; sourceTree = "<group>"; };
+		BEA6324020C1780700C8AED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/QuickDNS.xib; sourceTree = "<group>"; };
+		BEA6324220C1780800C8AED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA6324C20C17E0100C8AED5 /* dns.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dns.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA6323220C1780700C8AED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA6322C20C1780700C8AED5 = {
+			isa = PBXGroup;
+			children = (
+				BEA6323820C1780700C8AED5 /* QuickDNS */,
+				BEA6323720C1780700C8AED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA6323720C1780700C8AED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6323620C1780700C8AED5 /* LiberteDNS.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA6323820C1780700C8AED5 /* QuickDNS */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6323920C1780700C8AED5 /* QuickDNS.h */,
+				BEA6323B20C1780700C8AED5 /* QuickDNS.m */,
+				BEA6324C20C17E0100C8AED5 /* dns.tiff */,
+				BEA6323D20C1780700C8AED5 /* QuickDNS.tiff */,
+				BEA6323F20C1780700C8AED5 /* QuickDNS.xib */,
+				BEA6324220C1780800C8AED5 /* Info.plist */,
+			);
+			path = QuickDNS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEA6323320C1780700C8AED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6323A20C1780700C8AED5 /* QuickDNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BEA6323520C1780700C8AED5 /* LiberteDNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA6324520C1780800C8AED5 /* Build configuration list for PBXNativeTarget "LiberteDNS" */;
+			buildPhases = (
+				BEA6323120C1780700C8AED5 /* Sources */,
+				BEA6323220C1780700C8AED5 /* Frameworks */,
+				BEA6323320C1780700C8AED5 /* Headers */,
+				BEA6323420C1780700C8AED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiberteDNS;
+			productName = QuickDNS;
+			productReference = BEA6323620C1780700C8AED5 /* LiberteDNS.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA6322D20C1780700C8AED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gleb Karpushkin";
+				TargetAttributes = {
+					BEA6323520C1780700C8AED5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = BEA6323020C1780700C8AED5 /* Build configuration list for PBXProject "LiberteDNS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA6322C20C1780700C8AED5;
+			productRefGroup = BEA6323720C1780700C8AED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA6323520C1780700C8AED5 /* LiberteDNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA6323420C1780700C8AED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6324D20C17E0100C8AED5 /* dns.tiff in Resources */,
+				BEA6323E20C1780700C8AED5 /* QuickDNS.tiff in Resources */,
+				BEA6324120C1780700C8AED5 /* QuickDNS.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA6323120C1780700C8AED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6323C20C1780700C8AED5 /* QuickDNS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEA6323F20C1780700C8AED5 /* QuickDNS.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6324020C1780700C8AED5 /* Base */,
+			);
+			name = QuickDNS.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA6324320C1780800C8AED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEA6324420C1780800C8AED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEA6324620C1780800C8AED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QHQL7836SK;
+				INFOPLIST_FILE = QuickDNS/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyerise.LiberteDNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		BEA6324720C1780800C8AED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QHQL7836SK;
+				INFOPLIST_FILE = QuickDNS/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyerise.LiberteDNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA6323020C1780700C8AED5 /* Build configuration list for PBXProject "LiberteDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6324320C1780800C8AED5 /* Debug */,
+				BEA6324420C1780800C8AED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA6324520C1780800C8AED5 /* Build configuration list for PBXNativeTarget "LiberteDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6324620C1780800C8AED5 /* Debug */,
+				BEA6324720C1780800C8AED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA6322D20C1780700C8AED5 /* Project object */;
+}
